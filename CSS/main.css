@@ -1,16 +1,38 @@
+.middle_section {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 65px;
-  padding-left: 250px;
-  align-items: center;
+  /* padding-left: 250px; */
+  /* align-items: center; */
+  /* max-width: 940px;
+  width: 100%;
+  margin: 0 auto; */
 }
 
 .nav_navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-right: 250px;
+  /* padding-right: 250px; */
+  align-items: center;
+
+}
+
+.nav_logo {
+  display: flex;
+  align-content: center;
+  align-self: center;
+}
+
+.nav_logo > img {
+  width: 101.62px;
+  height: 23px;
 }
 
 .nav_navbar > a {
@@ -56,8 +78,8 @@ a:hover {
 
 .ourstory_table {
   display: grid;
-  padding-left: 250px;
-  padding-right: 250px;
+  /* padding-left: 250px;
+  padding-right: 250px; */
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 24px 81px 0px 200px;
   gap: 20px;
@@ -65,20 +87,20 @@ a:hover {
 
 .ourstory_table__h4 {
   grid-area: 1/1/3/4;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   font-size: 20px;
   line-height: 23.44px;
-  letter-spacing: 0.18750004470348358px;
+  /* letter-spacing: 0.18750004470348358px; */
   text-align: left;
   width: 405px;
 }
 
 .ourstory_table > p {
   grid-area: 3/1/5/4;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   font-size: 13px;
   line-height: 23px;
-  letter-spacing: 0.18750004470348358px;
+  /* letter-spacing: 0.18750004470348358px; */
   text-align: left;
   width: 405px;
 }
@@ -119,9 +141,9 @@ a:hover {
 .ourcapabilities_section1 {
   display: flex;
   flex-direction: row;
-  padding-left: 250px;
+  /* padding-left: 250px; */
   padding-top: 118px;
-  padding-right: 250px;
+  /* padding-right: 250px; */
   justify-content: space-between;
 }
 
@@ -148,7 +170,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  padding-left: 154px;
+  /* padding-left: 154px; */
 }
 
 .ourcapabilities_bar > p {
@@ -229,7 +251,7 @@ a:hover {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   line-height: 36px;
-  letter-spacing: 0.15000000596046448px;
+  letter-spacing: 0.15px;
   color: rgba(72, 85, 91, 1);
   text-align: center;
   margin-top: 120px;
@@ -246,4 +268,5 @@ a:hover {
   text-align: center;
   color: white;
   background-color: rgba(0, 164, 229, 1);
+  text-transform: uppercase;
 }

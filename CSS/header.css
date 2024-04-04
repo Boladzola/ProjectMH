@@ -4,24 +4,28 @@
   width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 64px 1fr 85px;
-  justify-items: center;
+  /* display: grid; */
+  /* grid-template-columns: 1fr; */
+  /* grid-template-rows: 64px 1fr 85px; */
+  /* justify-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
 }
 
 .header_logo {
-  padding-top: 41px;
+  /* padding-top: 41px; */
   width: 101.62px;
   height: 23px;
   /* border: 2px solid red; */
 }
 
 .header_content {
-  padding-top: 381px;
+  /* padding-top: 381px; */
   display: flex;
   flex-direction: column;
-
   color: white;
   /* border: 2px solid red; */
 }
